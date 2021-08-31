@@ -1,24 +1,23 @@
 .content {
-
- & .container {
+  & .container {
     display: flex;
-}
+  }
 }
 
 .content__list {
   display: flex;
 }
 
-.content__item {
+.content__card {
   display: flex;
   flex-direction: column;
 
   &:not(:last-child) {
-  margin-right: 30px;
-}
+    margin-right: 30px;
+  }
 }
 
-.icon-container {
+.content__container {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -29,7 +28,7 @@
   margin-bottom: 30px;
 }
 
-.item-title {
+.content__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -37,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.item-description {
+.content__description {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;

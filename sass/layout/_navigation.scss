@@ -42,11 +42,11 @@
 
 // CONTACT 
 
-.contact__list {
+.navigation__contacts-list {
   display: flex;
 }
 
-.contact__item {
+.navigation__contacts-item {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -57,7 +57,7 @@
 }
 }
 
-.contact__link {
+.navigation__contacts-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;

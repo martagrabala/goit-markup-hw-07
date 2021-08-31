@@ -5,12 +5,12 @@
 @import "./utils/variables";
 @import "./utils/is-hidden";
 
-@import "./components/logo"; 
+@import "./components/logo";
 @import "./components/secondary-header";
 @import "./components/backdrop";
 @import "./components/modal";
-@import "./components/close-btn";
-@import "./components/user-policy";
+@import "./components/modal-form";
+
 
 @import "./layout/header";
 @import "./layout/navigation";
@@ -21,5 +21,5 @@
 @import "./layout/customers";
 @import "./layout/footer";
 
-@import "./pages/portfolio/filter";
+@import "./pages/portfolio/portfolio-filter";
 @import "./pages/portfolio/projects";

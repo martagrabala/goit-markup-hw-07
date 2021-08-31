@@ -1,26 +1,24 @@
 .about-us {
-
-    &.container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
+  &.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.services-list {
+.about-us__list {
   display: flex;
 }
 
-.services-list__item {
+.about-us__item {
   position: relative;
- 
+
   &:not(:last-child) {
-  margin-right: 30px;
-}
+    margin-right: 30px;
+  }
 }
 
-.services-list__label {
+.about-us__label {
   display: flex;
   font-weight: 700;
   font-size: 14px;
@@ -37,4 +35,3 @@
   position: absolute;
   bottom: 0;
 }
-

@@ -2,15 +2,15 @@
   background-color: #f5f4fa;
 }
 
-.members-list {
+.our-team__list {
   display: flex;
-
-    &__item:not(:last-child) {
-     margin-right: 30px;
-    }
 }
 
-.member-grid {
+.our-team__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team__grid {
   width: 270px;
   height: 428px;
   background: #ffffff;
@@ -19,7 +19,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.member-grid__name {
+.our-team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.member-grid__position {
+.our-team__position {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
@@ -37,14 +37,14 @@
   text-align: center;
 }
 
-.social-links {
+.our-team__socials {
   display: flex;
   margin-top: 16px;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.social-links__item {
+.our-team__social-link {
   display: flex;
   width: 44px;
   height: 44px;
